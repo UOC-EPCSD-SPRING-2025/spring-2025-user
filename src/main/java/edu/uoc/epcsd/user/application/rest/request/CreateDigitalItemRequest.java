@@ -16,10 +16,10 @@ public final class CreateDigitalItemRequest {
 	@NotBlank
     private final String description;
 
-	@NotBlank
+	@NotNull
     private final Long lat;
 	
-	@NotBlank
+	@NotNull
     private final Long lon;
 	
 	@NotBlank
